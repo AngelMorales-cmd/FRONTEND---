@@ -6,7 +6,7 @@ import Register from './features/auth/pages/Register';
 import Profile from './features/profile/pages/Profile';
 import ProtectedRoute from './components/ProtectedRoute';
 
-const Router = () => {
+function App() {
   return (
     <BrowserRouter>
       <AuthProvider>
@@ -27,6 +27,6 @@ const Router = () => {
       </AuthProvider>
     </BrowserRouter>
   );
-};
+}
 
-export default Router;
+export default App;
